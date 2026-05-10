@@ -13,7 +13,6 @@ data = pd.DataFrame({
     "assignments": np.random.randint(0, 10, rows),
 })
 
-# Create realistic result with noise
 score = (
     0.3 * data["study_hours"] +
     0.2 * data["attendance"] / 10 +
@@ -22,15 +21,12 @@ score = (
     0.1 * data["sleep_hours"]
 )
 
-# Add randomness (VERY IMPORTANT)
 noise = np.random.normal(0, 0.8, rows)
 
 final_score = score + noise
 
-# Decision boundary (not perfect now)
 data["result"] = (final_score > 6.5).astype(int)
 
-# Save file
 data.to_csv("student_data.csv", index=False)
 
 print("Dataset created successfully!")
