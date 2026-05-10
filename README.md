@@ -36,10 +36,10 @@ Streamlit web interface
 
 This project can use:
 
-Logistic Regression (Used).
-Decision Tree (Tried for acuaracy)
-K-Nearest Neighbors (KNN) (Tried for accuracy)
-Support Vector Machine (SVM) (Tried for accuracy)
+Logistic Regression (Used). 
+Decision Tree (Tried for acuaracy).
+K-Nearest Neighbors (KNN) (Tried for accuracy).
+Support Vector Machine (SVM) (Tried for accuracy).
 
 
 # Dataset Information
