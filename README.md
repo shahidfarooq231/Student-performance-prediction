@@ -68,12 +68,6 @@ Add login system
 Create advanced dashboard
 
 
-# Author
-
-*Shahid Farooq*
-B.Tech CSE
-
-
 
 # Conclusion
 
